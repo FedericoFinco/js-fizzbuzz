@@ -1,0 +1,21 @@
+body {
+    background-color: #222;
+}
+
+.box {
+    padding: 10px;
+    height: 100px;
+    width: calc(100%/10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.innerBox {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
